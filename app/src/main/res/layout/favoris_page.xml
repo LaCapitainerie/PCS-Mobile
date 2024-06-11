@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/favoris_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favoris"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="50dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/favoris_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modifier"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="10dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/favoris_nofavoris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vous n'avez pas encore de favoris"
+        android:textSize="20sp"
+        android:textColor="#80000000"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="100dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
