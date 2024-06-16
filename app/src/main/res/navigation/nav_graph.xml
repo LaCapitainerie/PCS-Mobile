@@ -34,5 +34,17 @@
         android:label="Profil"
         tools:layout="@layout/profile_page" />
 
+    <fragment
+        android:id="@+id/navigation_payment"
+        android:name="com.example.pcs.ProfilePage"
+        android:label="Paiement"
+        tools:layout="@layout/payment_page" />
+
+    <fragment
+        android:id="@+id/navigation_support"
+        android:name="com.example.pcs.ProfilePage"
+        android:label="Support"
+        tools:layout="@layout/support_page" />
+
 
 </navigation>
